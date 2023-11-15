@@ -1,0 +1,171 @@
+@font-face {
+	font-family: 'Saravali';
+	src: url('../images/Saravali.ttf');
+}
+.moondiv { text-align: center;}
+.moondiv h1 { 
+font-family: Sans,sans-serif,sans!important;
+font-size: 200%!important; 
+}
+#chart { table-layout: fixed!important; width: 100%; border: 1px solid #777; border-collapse: inherit!important; margin: 4px; 
+        background: none!important;
+}
+#chart td { min-width: 12% !important; max-width: 17%!important; text-align: center;}
+#chart h4 { margin: 4px; }
+#chart td  *{ display: inline; text-align: center; line-height: normal; }
+#chart2 { table-layout: fixed!important; width: 100%; border: 1px solid #777; margin: 4px; 
+        background: none!important;
+}
+#chart2 td { min-width: 25% !important;max-width: 25% !important; text-align: center; }
+#chart2 td  *{ display: inline; text-align: center; line-height: normal;  }
+
+#rasi table,#rasi th,#rasi td {border:1px solid #c0c0c0;}
+#chart  table,#chart th,#chart td {border:none;padding: 0; margin:0; font-size:0.8em; }
+#rasi #tropic { width: 100%; background: rgba(220,210,200,0.1); }
+#rasi h4 { text-align:center; }
+#rasi #tropic p { display: inline; }
+#rasi #tropic tr { line-height: 1.1em; }
+#rasi #tropic th:nth-child(1) { width: 20%; text-align:center;  }
+#rasi #tropic td:nth-child(1) { text-align:center; font-size:0.8em;}
+#rasi #tropic th:nth-child(2) { width: 30%; }
+#rasi #tropic td:nth-child(2) { font-family: monospace,mono!important; font-size:0.8em; }
+#rasi #tropic th:nth-child(3) { width: 30%; }
+#rasi #tropic td:nth-child(3) { font-family: monospace,mono!important; font-size:0.8em; }
+#rasi #tropic th:nth-child(4) { width: 20%; }
+#rasi #tropic td:nth-child(4) { width: 20%; font-size:0.8em; }
+#rasi #tropic tr:nth-child(even) {background: rgba(255,255,255,0.4); }
+#rasi #tropic tr:nth-child(odd) {background: rgba(255,255,255,0.1); }
+
+#rasi img { background: none!important; border: none!important; }
+
+.circl, .circl2 { position: relative; overflow: hidden;}
+
+.rasicircle img, .zodiac img { width: 90%; height: auto; max-width: 90%!important; margin: 5%!important; overflow: hidden; }
+
+.circl p, .circl2 p { position: absolute; left: 37%; right: 0; top: 27%; text-align:center; width: 26%; height: auto; z-index: 555; }
+
+.circl, .circl2 { 
+position: relative; overflow: hidden;
+transform: scale(1);
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+}
+
+.circl:hover,.circl2:hover {
+transform: scale(2.0);
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+z-index: 9999!important;
+}
+
+
+.rasicircle, .zodiac  { 
+width: 100%; height: auto; text-align: initial!important; position: relative; overflow: hidden!important; top: 0!important; left: 0!important;
+margin: 0!important;
+padding: 0!important;
+}
+
+.sun, .moon, .mars, .mercury, .venus, .jupiter, .saturn, .uranus, .neptune, .pluto, .nnode, .snode, .asc
+{
+position: absolute;
+height: 20%;
+width: 100%;
+top: -0.4%;
+right: -50%;
+-ms-transform-origin: 0 250%;
+-webkit-transform-origin: 0 250%;
+-moz-transform-origin: 0 250%;
+-o-transform-origin: 0 250%;
+transform-origin: 0 250%;
+z-index: 999!important;
+font-weight: normal!important;
+font-family: "Sans-serif",sans-serif,sans!important;
+margin: 0!important;
+padding: 0!important;
+box-shadow: none!important;
+text-transform: none!important;
+ border-left: 1px solid rgba(150,100,50,1);
+ color: rgba(150,100,50,1);
+}
+
+.sun2, .moon2, .mars2, .mercury2, .venus2, .jupiter2, .saturn2, .uranus2, .neptune2, .pluto2, .nnode2, .snode2, .asc2
+{
+position: absolute;
+height: 18%;
+width: 100%;
+top: 1.3%;
+right: -50%;
+-ms-transform-origin: 0 268%;
+-webkit-transform-origin: 0 268%;
+-moz-transform-origin: 0 268%;
+-o-transform-origin: 0 268%;
+transform-origin: 0 268%;
+z-index: 999!important;
+font-family: "Sans-serif",sans-serif,sans!important;
+font-weight: normal!important;
+margin: 0!important;
+padding: 0!important;
+box-shadow: none!important;
+text-transform: none!important;
+ border-left: 1px solid rgba(50,100,150,1);
+ color: rgba(50,100,150,1);
+}
+.sun1, .moon1, .mars1, .mercury1, .venus1, .jupiter1, .saturn1, .uranus1, .neptune1, .pluto1, .nnode1, .snode1, .asc1
+{
+position: absolute;
+height: 20%;
+width: 100%;
+top: 0.62%;
+right: -50%;
+-ms-transform-origin: 0 246%;
+-webkit-transform-origin: 0 246%;
+-moz-transform-origin: 0 246%;
+-o-transform-origin: 0 246%;
+transform-origin: 0 246%;
+z-index: 999!important;
+font-weight: normal!important;
+font-family: "Sans-serif",sans-serif,sans!important;
+margin: 0!important;
+padding: 0!important;
+box-shadow: none!important;
+text-transform: none!important;
+ border-left: 1px solid rgba(150,100,50,1);
+ color: rgba(150,100,50,1);
+}
+.sun12, .moon12, .mars12, .mercury12, .venus12, .jupiter12, .saturn12, .uranus12, .neptune12, .pluto12, .nnode12, .snode12, .asc12
+{
+position: absolute;
+height: 18%;
+width: 100%;
+top: 1.55%;
+right: -50%;
+-ms-transform-origin: 0 268%;
+-webkit-transform-origin: 0 268%;
+-moz-transform-origin: 0 268%;
+-o-transform-origin: 0 268%;
+transform-origin: 0 268%;
+z-index: 999!important;
+font-family: "Sans-serif",sans-serif,sans!important;
+font-weight: normal!important;
+margin: 0!important;
+padding: 0!important;
+box-shadow: none!important;
+text-transform: none!important;
+ border-left: 1px solid rgba(50,100,150,1);
+ color: rgba(50,100,150,1);
+}
+
+.asp {
+position: absolute;
+top: 55%;
+-ms-transform-origin: 0 100%;
+-webkit-transform-origin: 0 100%;
+-moz-transform-origin: 0 100%;
+-o-transform-origin: 0 100%;
+transform-origin: 0 100%;
+z-index: 1999 !important;
+}
