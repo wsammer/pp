@@ -1544,7 +1544,7 @@ var	sun2_l,moon2_l,mercury2_l,venus2_l,mars2_l,jupiter2_l,saturn2_l,uranus2_l,ne
 
 	if (showPanchang) {
 	tab = tab + "Ayanamsa "+ ayan_name[sel_ayan]+" : " + string_ayan+"</h4>";
-	tab = tab + "<p>Nakshatra: <span style='float:right;font-weight:900;'>" + nax[Math.floor(moon2/13.33333333334)] + " upto "+naxe+"</span><br/>Tithi: <span style='float:right;font-weight:900;'>" + txt_tithi+" upto "+tthi+"</span><br/>Karana: <span style='float:right;font-weight:900;'>"+get_karana_name(f_tithi)+" upto "+krna+"</span><br/>Yoga: <span style='float:right;font-weight:900;'>" + yog + " upto "+yoge+"</span><br/>Month: <span style='float:right;font-weight:900;'>"+ txt_hmonth+"</span><br/>Paksha: <span style='float:right;font-weight:900;'>"+txt_paksha+"</span><br/>Year: <span style='float:right;font-weight:900;'>"+ YearSaka + " " + get_Jovian_Year_name_south(YearKali)+ " Shaka Samvat<br/>"+ (YearSaka+135) + " " + get_Jovian_Year_name(YearKali) + " Vikrama Samvat</span></p><p style='clear:both;'>Get panchang details for your place & time through <a href='https://circleofdivine.com/my-planets' target='_blank'>this link</a></p><br/>";
+	tab = tab + "<p><span>Nakshatra:</span><span style='float:right;clear:right;font-weight:900;'>" + nax[Math.floor(moon2/13.33333333334)] + " upto "+naxe+"</span><br/><span>Tithi:</span><span style='float:right;clear:right;font-weight:900;'>" + txt_tithi+" upto "+tthi+"</span><br/><span>Karana:</span><span style='float:right;clear:right;font-weight:900;'>"+get_karana_name(f_tithi)+" upto "+krna+"</span><br/><span>Yoga:</span><span style='float:right;clear:right;font-weight:900;'>" + yog + " upto "+yoge+"</span><br/><span>Month:</span><span style='float:right;clear:right;font-weight:900;'>"+ txt_hmonth+"</span><br/><span>Paksha:</span><span style='float:right;clear:right;font-weight:900;'>"+txt_paksha+"</span><br/><span>Year:</span><span style='float:right;clear:both;font-weight:900;'>"+ YearSaka + " " + get_Jovian_Year_name_south(YearKali)+ " Shaka Samvat<br/>"+ (YearSaka+135) + " " + get_Jovian_Year_name(YearKali) + " Vikrama Samvat</span></p><br>";
 	}
 
 	showTable = document.getElementById('pp_showTable').value;
@@ -1962,6 +1962,6 @@ function waitasec() {
 
 $JQ(document).ready(function(){ 
 	RASI(); 
-       setInterval(function() {waitasec(); } , 2000);
+//       setInterval(function() {waitasec(); } , 2000);
 
 });
