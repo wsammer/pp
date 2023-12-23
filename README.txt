@@ -5,7 +5,7 @@ Donate link: https://sonalvedicessence.com/product/donate/
 Requires at least: 5.0
 Requires PHP: 7.3
 Tested up to: 6.4
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -40,6 +40,9 @@ Post on the [Support Forum](http://wordpress.org/support/plugin/planetary-positi
 1. Example display of planet positions table with Moon Phase and Sidereal + Tropical Wheels
 
 == Changelog ==
+= 1.5.3 =
+Remove continuous update of planets every 10 seconds.
+Fix panchang details formatting.
 = 1.5.2 =
 Fixed ayanamsa bug
 = 1.5.1 =

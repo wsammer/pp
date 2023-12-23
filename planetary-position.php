@@ -5,7 +5,7 @@
  * @wordpress-plugin
  * Plugin Name:       Planetary Position
  * Description:       Plugin to display Planetary Positions
- * Version:           1.5.2
+ * Version:           1.5.3
  * Author:            Sammy Wally
  * License:           GPL-3.0+
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
